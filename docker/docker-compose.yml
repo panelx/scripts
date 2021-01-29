@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  panel:
+    image: panelx/panel:latest
+    ports:
+      - "3000:80"
