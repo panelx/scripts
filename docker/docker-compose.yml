@@ -4,5 +4,3 @@ services:
     image: panelx/panel:latest
     ports:
       - "3000:80"
-  redis:
-    image: "redis:alpine"
