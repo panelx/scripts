@@ -3,4 +3,7 @@ services:
   panel:
     image: panelx/panel:latest
     ports:
-      - "3000:80"
+      - "3000:3000"
+    configs:
+      - source: config.js
+        target: /usr/src/app/config.js
