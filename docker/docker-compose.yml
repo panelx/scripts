@@ -4,6 +4,5 @@ services:
     image: panelx/panel:latest
     ports:
       - "3000:3000"
-    configs:
-      - source: config.js
-        target: /usr/src/app/config.js
+#    volumes:
+#      - ./config.js:/usr/src/app/dist/config.js
