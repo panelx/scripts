@@ -4,5 +4,7 @@ services:
     image: panelx/panel:latest
     ports:
       - "3000:3000"
+    environment:
+      - CLIENT_PORT=3000
 #    volumes:
 #      - ./config.js:/usr/src/app/dist/config.js
